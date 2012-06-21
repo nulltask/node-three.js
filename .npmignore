@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log
+.git*
+examples/
+test/
+deps/three.js/docs
+deps/three.js/examples
+deps/three.js/gui
+deps/three.js/utils

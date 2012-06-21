@@ -1,6 +1,6 @@
 {
   "name": "three.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Three.js for Node.js",
   "main": "index.js",
   "scripts": {
