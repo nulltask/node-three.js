@@ -5,9 +5,9 @@
 
 var fs = require('fs')
   , Particles = require('./particles')
-  , particles = new Particles(1024, 768, 1)
+  , particles = new Particles(1024, 768, 15)
   , curFrame = 0
-  , maxFrame = 100;
+  , maxFrame = parseInt(process.argv[process.argv.length - 1] || 30, 10);
 
 /**
  * Start rendering.
@@ -16,7 +16,7 @@ var fs = require('fs')
 particles.play();
 
 /**
- * Write 100 frames.
+ * Writing frames.
  */
 
 particles.on('render', function(stream) {
@@ -26,7 +26,7 @@ particles.on('render', function(stream) {
   console.log('Writing... (' + curFrame + '/' + maxFrame + ')');
   stream.pipe(out);
   
-  if (curFrame > maxFrame) {
+  if (curFrame >= maxFrame) {
     particles.pause();
   }
 });
