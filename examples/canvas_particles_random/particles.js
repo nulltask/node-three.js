@@ -91,7 +91,7 @@ Particles.prototype.program = function(context) {
  */
 
 Particles.prototype.render = function() {
-  this.camera.lookAt(this.scene.position );
+  this.camera.lookAt(this.scene.position);
   
   this.group.rotation.x += 0.01;
   this.group.rotation.y += 0.02;

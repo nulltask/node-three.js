@@ -23,9 +23,9 @@ particles.on('render', function(stream) {
   var path = __dirname + '/frame-' + (++curFrame) + '.png'
     , out = fs.createWriteStream(path);
 
-  console.log('Writing... (' + curFrame + '/' + maxFrame + ')');
+  console.log('Writing... (%s/%s)', curFrame, maxFrame);
   stream.pipe(out);
-  
+
   if (curFrame >= maxFrame) {
     particles.pause();
   }
