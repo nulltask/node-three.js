@@ -1,6 +1,6 @@
 {
   "name": "three.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Three.js for Node.js",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
     "jsdom": "*"
   },
   "author": "Seiya Konno <nulltask@gmail.com> (http://null.ly)",
+  "contributors": [
+    { "name": "Remo E" }
+  ],
   "license": "MIT"
 }
