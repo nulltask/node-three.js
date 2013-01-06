@@ -1,4 +1,10 @@
 
+0.1.0 / 2013-01-06 
+==================
+
+  * Added support for `Image` constructor
+  * Added textures example
+
 0.0.2 / 2012-11-26 
 ==================
 
