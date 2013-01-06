@@ -1,3 +1,4 @@
+
 # node-three.js
 
   [Three.js](http://mrdoob.github.com/three.js/) (CanvasRenderer) for [Node.js](http://nodejs.org).
@@ -20,7 +21,7 @@ See [examples](https://github.com/uniba/node-three.js/blob/master/examples/).
 
 (The MIT License)
 
-Copyright (c) 2012 Uniba Inc. &lt;info@uniba.jp&gt;
+Copyright (c) 2012, 2013 Uniba Inc. &lt;info@uniba.jp&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
