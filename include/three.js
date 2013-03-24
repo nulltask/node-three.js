@@ -13718,8 +13718,10 @@ THREE.CanvasRenderer = function ( parameters ) {
 		_canvas.width = _canvasWidth;
 		_canvas.height = _canvasHeight;
 
-		_canvas.style.width = width + 'px';
-		_canvas.style.height = height + 'px';
+		if(_canvas.style) {
+			_canvas.style.width = width + 'px';
+			_canvas.style.height = height + 'px';
+		}
 
 		_clipBox.set(
 			new THREE.Vector2( - _canvasWidthHalf, - _canvasHeightHalf ),
