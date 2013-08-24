@@ -1,6 +1,6 @@
 {
   "name": "three.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Three.js for Node.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:uniba/node-three.js.git"
+    "url": "git@github.com:stefankutko/node-three.js.git"
   },
   "keywords": [
     "three.js"
