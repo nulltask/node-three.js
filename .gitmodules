@@ -1,3 +1,0 @@
-[submodule "deps/three.js"]
-	path = deps/three.js
-	url = git://github.com/mrdoob/three.js.git
