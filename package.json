@@ -14,8 +14,8 @@
     "three.js"
   ],
   "dependencies": {
-    "canvas": "*",
-    "jsdom": "*"
+    "canvas": "~1.2.x",
+    "jsdom": "~4.0.x"
   },
   "author": "Seiya Konno <nulltask@gmail.com> (http://null.ly)",
   "contributors": [

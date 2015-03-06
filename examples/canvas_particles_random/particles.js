@@ -7,7 +7,7 @@ var THREE = require('../../')
   , EventEmitter = require('events').EventEmitter
   , jsdom = require('jsdom')
   , document = jsdom.jsdom('<!doctype html><html><head></head><body></body></html>')
-  , window = document.createWindow();
+  , window = document.defaultView;
 
 /**
  * Expose `Particles`.
